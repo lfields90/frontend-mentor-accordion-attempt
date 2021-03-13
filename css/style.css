@@ -1,0 +1,95 @@
+/* Font Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/* Global Style Reset */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*  */
+
+main {
+  font-family: 'Kumbh Sans', sans-serif;
+  height: 100vh;
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 70px 0 20px 0;
+  color: hsl(238, 29%, 16%);
+  font-weight: 700;
+}
+
+p {
+  font-size: 12px;
+}
+
+/* FAQ Wrapper */
+
+.hero-wrapper {
+  position: absolute;
+  background: white;
+  height: 60%;
+  width: 65%;
+  border-radius: 25px;
+  display: flex;
+  box-shadow: 0px 30px 25px 10px rgba(0,0,0,0.15);
+  -webkit-box-shadow: 0px 30px 25px 10px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 30px 25px 10px rgba(0,0,0,0.15);
+}
+
+
+/* Image Div */
+.image {
+flex: 1 ;
+}
+
+/* .multi-bg {
+  background-image: url(./images/illustration-woman-online-desktop.svg),
+                    url(./images/bg-pattern-desktop.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top 25% left -15%, ;
+  position: relative;
+} */
+
+.woman-img {
+  top: 25%;
+  left: -15%;
+  position: relative;
+}
+
+/* FAQ Div*/
+.faq {
+flex: 1;
+text-align: left;
+}
+
+details {
+  padding: 20px 0;
+}
+
+details > summary {
+}
+
+details > p {
+
+}
+
+details[open] > summary {
+  font-weight: 700;
+  padding: 10px;
+}
+
+.underline {
+  /* Light grayish blue:*/
+  height: 1px;
+  width: 70%;
+  background-color: hsl(240, 5%, 91%);
+}
